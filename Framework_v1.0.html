@@ -6,13 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"><!--|_|Content Delivery Network-https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css|_|-->
     <title>Final Project</title>
+    <style>
+        body {
+            background-image: url("pics/gray-stucco-texture-hd-1.jpg");
+            color: white;
+        }
+        h1 {
+            margin-top: 0px;
+            background-color: blue;
+            margin-bottom: 10px;
+            border-bottom: 3px solid;
+            border-bottom-color: #3B0ACA;
+            font-family: "Signika", serif;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 8px 4px 10px;
+            text-decoration-color: cornsilk;
+            color: aliceblue;
+            padding-bottom: 8px;
+        }
+        .ads {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            text-overflow: hidden;
+        }
+        #left-ad{
+            margin-left: 5px;
+            padding-left: 5px;
+            position: relative;
+            left: 10%;
+        }
+        #right-ad {
+            margin-right: 5px;
+            padding-right: 5px;
+            position: relative;
+            left: 80%;
+        }
+        #page-title {
+            width: 50%;
+            display: inline-block;
+            background: blue;
+        }
+    </style>
 </head>
 
 <body>
-
+    <h1>RP Games</h1>
     <div class="container">
-
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" id="page-title">
+                "PAGE TITLE"
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 ads" id="left-ad">
+                Advertisement
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 ads" id="right-ad">
+                Advertisement
+            </div>
+        </div>
     </div>
+
+
 
     <script src="js/jquery-3.2.1.min.js"></script><!--|_|Content Delivery Network(CDN)-https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js|_|-->
     <script src="js/bootstrap.js"></script><!--|_|Content Delivery Network(CDN)-https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js|_|-->

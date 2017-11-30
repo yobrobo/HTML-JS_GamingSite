@@ -1582,8 +1582,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4328,6 +4328,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
+@media (min-width: 768px) {
+.navbar.navbar-fixed-top .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar.navbar-fixed-top .navbar-nav > li {
+    display: inline-block;
+    float: none
+}
+}
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -6755,3 +6766,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.sticky {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
